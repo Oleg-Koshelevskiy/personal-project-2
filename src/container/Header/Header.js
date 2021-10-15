@@ -3,7 +3,7 @@ import Container from '@mui/material/Container'
 import classes from './Header.module.css'
 import Logo from '../Header/logo.png'
 import Menu from './Menu/Menu'
-import Social from '../../components/Social'
+import Social from '../../components/Social/Social'
 
 const Header = () => {
     return (
