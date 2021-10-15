@@ -33,8 +33,8 @@ const ArticleList = () => {
                 spacing={2}
             >
                 {articlesArray.map(
-                    ({ header, image, prewiew, category, date }) => (
-                        <Grid item xs={12} sm={6} md={4}>
+                    ({ id, header, image, prewiew, category, date }) => (
+                        <Grid item xs={12} sm={6} md={4} key={id}>
                             <ArticleCard
                                 header={header}
                                 image={image}

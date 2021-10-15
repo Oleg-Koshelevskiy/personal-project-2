@@ -1,8 +1,8 @@
 import React from 'react'
-import classes from '../../container/Header/Header.module.css'
-import Facebook from '../Social/facebook.png'
-import Instagram from '../Social/instagram.png'
-import Twitter from '../Social/twitter.png'
+import classes from '../container/Header/Header.module.css'
+import Facebook from '../components/Social/facebook.png'
+import Instagram from '../components/Social/instagram.png'
+import Twitter from '../components/Social/twitter.png'
 
 const Social = () => {
     return (
