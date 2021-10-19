@@ -7,6 +7,7 @@ const Menu = () => {
             <div className={classes.li}>Home</div>
             <div className={classes.li}>Blog</div>
             <div className={classes.li}>Category</div>
+            <div className={classes.li}>Favorite</div>
             <div className={classes.li}>Gallery</div>
         </div>
     )

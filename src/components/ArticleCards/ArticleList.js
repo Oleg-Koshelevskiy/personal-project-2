@@ -14,7 +14,6 @@ const useStyles = makeStyles({
 
 const ArticleList = () => {
     const classes = useStyles()
-    console.log(classes)
     return (
         <>
             <Typography
