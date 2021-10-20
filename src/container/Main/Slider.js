@@ -3,12 +3,12 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Slide1 from '../../assets/Sliders/autumn.jpg'
-import Slide2 from '../../assets/Sliders/bike.jpg'
-import Slide3 from '../../assets/Sliders/family.jpg'
-import Slide4 from '../../assets/Sliders/lake.jpg'
-import Slide5 from '../../assets/Sliders/marriage.jpg'
-import Slide6 from '../../assets/Sliders/man-walking-dog.jpg'
+import Slide1 from '../../assets/Sliders/slide1.jpg'
+import Slide2 from '../../assets/Sliders/slide2.jpg'
+import Slide3 from '../../assets/Sliders/slide3.jpg'
+import Slide4 from '../../assets/Sliders/slide4.jpg'
+import Slide5 from '../../assets/Sliders/slide5.jpg'
+import Slide6 from '../../assets/Sliders/slide6.jpg'
 
 export default function SimpleSlider() {
     var settings = {

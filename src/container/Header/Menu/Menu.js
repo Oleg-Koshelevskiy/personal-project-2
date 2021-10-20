@@ -1,14 +1,35 @@
 import React from 'react'
 import classes from '../../Header/Header.module.css'
+import { Link } from 'react-router-dom'
 
 const Menu = () => {
     return (
         <div className={classes.menu}>
-            <div className={classes.li}>Home</div>
-            <div className={classes.li}>Blog</div>
-            <div className={classes.li}>Category</div>
-            <div className={classes.li}>Favorite</div>
-            <div className={classes.li}>Gallery</div>
+            <div>
+                <Link className={classes.li} to="/">
+                    Home
+                </Link>
+            </div>
+            <div>
+                <Link className={classes.li} to="/blog">
+                    Blog
+                </Link>
+            </div>
+            <div>
+                <Link className={classes.li} to="/category">
+                    Category
+                </Link>
+            </div>
+            <div>
+                <Link className={classes.li} to="/favorite">
+                    Favorite
+                </Link>
+            </div>
+            <div>
+                <Link className={classes.li} to="/gallery">
+                    Gallery
+                </Link>
+            </div>
         </div>
     )
 }
