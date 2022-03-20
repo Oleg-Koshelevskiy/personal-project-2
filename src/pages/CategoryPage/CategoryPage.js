@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 import React from 'react'
 import { makeStyles } from '@mui/styles'
 
@@ -12,14 +12,16 @@ const useStyles = makeStyles({
 const CategoryPage = () => {
     const classes = useStyles()
     return (
-        <Typography
-            align="center"
-            variant="h3"
-            component="h1"
-            className={classes.title}
-        >
-            CategoryPage
-        </Typography>
+        <Container maxWidth="lg">
+            <Typography
+                align="center"
+                variant="h3"
+                component="h1"
+                className={classes.title}
+            >
+                Category: ...
+            </Typography>
+        </Container>
     )
 }
 

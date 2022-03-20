@@ -19,6 +19,14 @@ const Menu = () => {
                 <Link className={classes.li} to="/category">
                     Category
                 </Link>
+                <ul className={classes.submenu}>
+                    <li className={classes.li2}>Nature</li>
+                    <li className={classes.li2}>Travel</li>
+                    <li className={classes.li2}>Family</li>
+                    <li className={classes.li2}>Wedding</li>
+                    <li className={classes.li2}>Love story</li>
+                    <li className={classes.li2}>Sport</li>
+                </ul>
             </div>
             <div>
                 <Link className={classes.li} to="/favorite">
